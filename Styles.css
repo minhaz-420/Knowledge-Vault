@@ -1,1 +1,87 @@
+/* for all */
+.font-inter{
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+}
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+.btn{
+  border-radius: 4px;
+  background-color: #30B868;
+  border: none;
+  padding: 12px 16px ;
+  border-radius: 4px;
+  font-size: 16px;
+  font-weight: bold;
+  color: #FFFFFF;
+  cursor: pointer;
+}
+.size{
+  font-size: 70px;
+}
+.green{
+  color: #30B868;
+}
+.white{
+  color: #FFFFFF;
+}
+
+
+
+/* Specific */
+nav{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #FFFFFF;
+}
+nav .logo{
+  margin: 16px 0;
+  margin-left: 120px;
+}
+nav .menu{
+  display: flex;
+  list-style-type: none;
+  gap: 32px;
+}
+nav .menu a{
+  text-decoration: none;
+  font-weight: 600;
+  line-height: 152%;
+  color: #000000;
+}
+
+nav button {
+  margin: 24px 0;
+  margin-right: 120px;
+}
+#banner{
+  background-image: url(images/H-back.png);
+  height: 674px;
+  padding: 115px 120px 180px;
+}
+#banner .banner-container{
+  padding: 0px 295px;
+  text-align: center;
+}
+#banner .banner-container .Header-b1{
+  width: 229px;
+  background-color: #FFFFFF;
+  color: #30B868;
+  font-size: 16px;
+  font-weight: 500;
+  padding: 8px 12px 8px 34px;
+  border-radius: 1000px;
+  border: none;
+  margin-bottom: 16px;
+}
+#banner .banner-container p{
+  color: #FFFFFF;
+  line-height: 24px;
+  font-size: 18px;
+
+}
 
