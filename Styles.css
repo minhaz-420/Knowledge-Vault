@@ -20,7 +20,7 @@
   cursor: pointer;
 }
 .size{
-  font-size: 70px;
+  font-size: 80px;
 }
 .green{
   color: #30B868;
@@ -60,14 +60,23 @@ nav button {
 }
 #banner{
   background-image: url(images/H-back.png);
-  height: 674px;
-  padding: 115px 120px 180px;
+  min-height: 674px;
+  padding: 115px 0 180px;
+  background-size: cover;
+  background-position: center;
 }
 #banner .banner-container{
-  padding: 0px 295px;
   text-align: center;
+  max-width: 1360px;
+  margin: 0 auto;
+  padding: 0 120px;
 }
-#banner .banner-container .Header-b1{
+#banner .banner-container .content{
+  max-width: 770px;
+  margin: 0 auto;
+}
+
+#banner .banner-container .b1{
   width: 229px;
   background-color: #FFFFFF;
   color: #30B868;
@@ -82,6 +91,30 @@ nav button {
   color: #FFFFFF;
   line-height: 24px;
   font-size: 18px;
-
+  text-align: center;
+  margin-top: 16px;
+  margin-bottom: 32px;
+}
+.content .actions{
+  display: flex;
+  gap: 16px;
+  justify-content: center;
+}
+.content .actions .b2{
+  padding-top: 16px;
+  padding-left: 16px;
+  padding-right: 46px;
+  padding-bottom: 16px;
+  max-width: 251px;
+}
+.content .actions .b3{
+  background-color: transparent;
+  max-width: 198px;
+  padding-top: 16px;
+  padding-left: 46px;
+  padding-right: 16px;
+  padding-bottom: 16px;
+  color: #FFFFFF;
+  border: 1px solid white;
 }
 
