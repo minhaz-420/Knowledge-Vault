@@ -7,6 +7,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 <link rel="stylesheet" href="Styles.css">
 </head>
 
@@ -14,7 +15,7 @@
   <header>
     <nav>
       <div class="logo">
-        <img src="images/H-pic.png" alt="">
+        <img src="assets/logo-navbar.png" alt="">
       </div>
       <ul class="menu">
         <li><a href="">Features</a></li>
@@ -26,7 +27,7 @@
 
 <section id="banner">
   <div class="banner-container">
-    <button class="b1">Early Access Now Open</button>
+    <button class="b1"><i class="fa-solid fa-circle"></i>Early Access Now Open</button>
 
     <div class="content">
       <h1 class=" size white">Structured thinking,</h1>
@@ -39,14 +40,57 @@
       </p>
 
       <div class="actions">
-        <button class="btn b2">Start Building Your Vault</button>
-        <button class="btn b3">See How It Works</button>
+        <button class="btn b2">Start Building Your Vault<img src="assets/ArrowRight.png" alt=""></button>
+        <button class="btn b3"><i class="fa-solid fa-play"></i>See How It Works</button>
       </div>
     </div>
   </div>
 </section>
 
   </header>
+
+  <main>
+    <section id="card-section">
+      <header >
+        <h1 class="h">Notes Don't Fail, Structure Does.</h1>
+        <p class="p">You're not bad at learning. Your tools just weren't built for how knowledge actually works.</p>
+      </header>
+
+      <div class="card-container">
+        <div class="card">
+          <div class="img">
+          <img src="assets/Vector.png" alt="">
+          </div>
+          <h4>Scattered notes</h4>
+          <p>Your ideas live in 10 different apps, none of them connected.</p>
+        </div>
+
+        <div class="card">
+          <div class="img">
+          <img src="assets/Bookmarks.png" alt="">
+          </div>
+          <h4>Bookmark overload</h4>
+          <p>Hundreds of saved links you'll never revisit or remember.</p>
+        </div>
+
+        <div class="card">
+          <div class="img">
+          <img src="assets/Brain.png" alt="">
+          </div>
+          <h4>No idea connections</h4>
+          <p>Insights stay isolated, never building into bigger understanding.</p>
+        </div>
+        
+        <div class="card">
+          <div class="img">
+          <img src="assets/Info.png" alt="">
+          </div>
+          <h4>Forgetting what you learned</h4>
+          <p>Knowledge fades because there's no system to retain it.</p>
+        </div>
+      </div>
+    </section>
+  </main>
   
 </body>
 </html>
