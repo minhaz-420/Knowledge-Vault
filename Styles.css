@@ -49,7 +49,6 @@
   font-size: 16px;
   font-weight: 400;
   line-height: 20px;
-  text-align: center;
   color: #627382;
 }
 .h{
@@ -169,4 +168,72 @@ nav button {
   line-height: 29px;
   color: #001931;
   margin: 16px 0px;
+}
+#card-section header p{
+  text-align: center;
+}
+#structure{
+  padding: 120px;
+}
+#structure .content-container{
+  display: flex;
+  gap: 60px;
+}
+
+#structure .content-container .content{
+  margin: 102px 0px;
+}
+.content-container .content .first{
+  color: #30B868;
+}
+.content-container .content h1{
+  font-size: 48px;
+  line-height: 58px;
+  margin: 16px 0px;  
+}
+.content-container .content .point-container{
+  margin-top: 40px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+.content .point-container .point{
+  display: flex;
+  gap: 6px;
+}
+.content .point-container .point p{
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 20px;
+  color: #001931;
+}
+#creative{
+  padding-left: 120px;
+  padding-bottom: 120px;
+  padding-right: 120px;
+}
+#creative .creative-container{
+  padding: 80px 0px;
+  text-align: center;
+  background-color: #F7F6F2;
+}
+#creative .creative-container h1{
+  font-size: 40px;
+  line-height: 48px;
+  color: #001931;
+  margin-bottom: 16px;
+}
+#creative .creative-container p{
+  line-height: 20px;
+}
+#creative .creative-container .button {
+  margin-top: 24px;
+  margin-bottom: 16px;
+}
+
+#creative .creative-container button {
+  display: inline-flex;      
+  justify-content: center;   
+  align-items: center;
+  gap: 10px;               
 }
